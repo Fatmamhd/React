@@ -5,7 +5,7 @@ export default class Titre extends React.Component{
         return(
             <div className="Titre">
                 <h2>Titre</h2>
-                <Titre/>
+                
             </div>
         );
     }

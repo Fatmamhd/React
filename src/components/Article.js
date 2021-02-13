@@ -13,7 +13,7 @@ export default class Article extends React.Component{
                      facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
                       eligendi optio cumque nihil 
                     impedit quo minus id quod maxime placeat facere possimus, </p>
-                <Article/>
+                
             </div>
         );
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Article from './Article';
-import Notes from './Notes';
+import Notes from './Note';
 
 
 export default class Contenu extends React.Component{

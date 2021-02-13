@@ -1,27 +1,42 @@
+
 import './App.css';
-import Table from './components/table';
-import Magasin from './components/magasin';
-import Header from './components/Header';
-import Banniere from './components/Banniere';
-import Contenu from './components/Contenu';
-import Article from './components/Article';
-import Titre from './components/Titre';
-import Texte from './components/Texte';
-import Note from './components/Note';
-import Footer from './components/Footer';
-import Menu from './components/Menu';
-import '../style/style.css';
-import Table2 from './components/table2';
+import { Link, Route, Switch, BrowserRouter as Router } from 'react-router-dom';
+
+import Ex2 from './pages/ex2';
+import Ex3 from './pages/ex3';
+import Ex4 from './pages/ex4';
 
 
 function App() {
   return (
-    <div className="App">
-      <h2>Ex2</h2>
-      <Table ligne="c est une ligne" colonne="c est une colonne" />
-      <h2>Ex3</h2>
-      <Table2/>
-    </div>
+    <Router>
+<div>
+  <nav>
+    <ul>
+      <li>
+        <Link to="/ex2">Exercice 2</Link>
+      </li>
+      <li>
+        <Link to="/ex3">Exercice 3</Link>
+      </li>
+      <li>
+        <Link to="/ex4">Exercice 4 </Link>
+      </li>
+    </ul>
+  </nav>
+</div>
+<Switch>
+  <Route path="/ex2">
+    <Ex2/>
+  </Route>
+  <Route path="/ex3">
+    <Ex3/>
+  </Route>
+  <Route path="/ex4">
+    <Ex4/>
+  </Route>
+</Switch>
+    </Router>
   );
 }
 

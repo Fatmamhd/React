@@ -1,16 +1,16 @@
 .Header{
     background-color: purple;
-    height: 70px;
+    height: 100%;
     width: 100%;
 }
 .Banniere{
     background-color: grey;
-    height: 70px;
+    height: 100%;
     width:100%;
 }
 .Menu{
     background-color: #09bdbd;
-    width: 20%;
+    width: 100%;
     height: 200px;
 }
 .Contenu{
@@ -21,17 +21,17 @@
 }
 .h2{
     background-color: green;
-    width: 20%;
-    height: 20px;
+    width: 100%;
+    height: 100%;
 }
 .p{
     background-color: green;
     width: 100%;
     height: 70%;
 }
-.Notes{
+.Note{
     background-color: yellow;
-    width: 20%;
+    width: 100%;
     height: 200px;
 }
 .Footer{

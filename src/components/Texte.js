@@ -5,7 +5,7 @@ export default class Texte extends React.Component{
         return(
             <div className="Texte">
                 <h2>Texte</h2>
-                <Texte/>
+              
             </div>
         );
     }
