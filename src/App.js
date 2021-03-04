@@ -5,9 +5,9 @@ import { Link, Route, Switch, BrowserRouter as Router } from 'react-router-dom';
 import Ex2 from './pages/ex2';
 import Ex3 from './pages/ex3';
 import Ex4 from './pages/ex4';
-import pageOne from './pages/page1';
-import pageTwo from './pages/page2';
-import pageThree from './pages/page3';
+import Page1 from './pages/page1';
+import Page2 from './pages/page2';
+import Page3 from './pages/page3';
 
 
 function App() {
@@ -48,15 +48,15 @@ function App() {
     <Ex4/>
   </Route>
   <Route path="/page1">
-    <page1/>
+    <Page1/>
   </Route>
   <Route path="/page2">
-    <page2/>
+    <Page2/>
   </Route>
   <Route path="/page3">
-    <page3/>
+    <Page3/>
   </Route>
-</Switch>
+  </Switch>
     </Router>
   );
 }

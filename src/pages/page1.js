@@ -1,12 +1,12 @@
 import React from 'react';
-
- function page1() {
+import One from '../components/one';
+ function Page1() {
         return(
             <div>
             <h2>Page 1</h2>
-    <pageOne/>
+    <One/>
       </div>
         )
     };
 
-export default page1;
+export default Page1;

@@ -1,12 +1,12 @@
 import React from 'react';
-
- function page2() {
+import Two from '../components/two';
+ function Page2() {
         return(
             <div>
             <h2>Page 2</h2>
-    <pageTwo/>
+<Two/>
       </div>
         )
     };
 
-export default page2;
+export default Page2;
